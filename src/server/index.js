@@ -10,4 +10,4 @@ app.get('*', (req, res) => {
 });
 
 const port = process.env.SERVER_PORT || '80';
-app.listen(80, () => console.log(`API running on localhost:${port}`));
+app.listen(8080, () => console.log(`API running on localhost:${port}`));
