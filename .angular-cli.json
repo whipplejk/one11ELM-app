@@ -53,5 +53,19 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
-  }
+  },
+  "assets":[
+    "assets",
+    "favicon.ico",
+    {
+      "glob":"index.js",
+      "input": "./src/server",
+      "output": "./"
+    },
+    {
+      "glob": "package.js",
+      "input": "./src/server",
+      "output": "./"
+    }
+  ]
 }
